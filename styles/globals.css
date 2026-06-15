@@ -1,0 +1,40 @@
+/* styles/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --sage:        #7A9E87;
+  --sage-lt:     #EEF4F0;
+  --sage-md:     #C8DDD0;
+  --blush:       #E8C5B0;
+  --warm-white:  #FAFAF7;
+  --ink:         #2C2C2A;
+  --ink-mid:     #5A5A56;
+  --ink-lt:      #9A9A94;
+  --border:      #E2DED8;
+  --emergency:   #C0392B;
+  --emergency-bg:#FDF0EE;
+  --emergency-br:#E8A09A;
+  --crisis:      #B07830;
+  --crisis-bg:   #FDF6EE;
+  --crisis-br:   #DDB870;
+  --radius:      16px;
+  --radius-sm:   10px;
+}
+
+html, body, #__next {
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+  background: var(--warm-white);
+  color: var(--ink);
+}
+
+button { font-family: 'Inter', sans-serif; cursor: pointer; }
+textarea { font-family: 'Inter', sans-serif; }
+a { text-decoration: none; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
