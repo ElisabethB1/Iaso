@@ -122,7 +122,7 @@ export default function Home() {
         {/* Header */}
         <header className={styles.header}>
           <div className={styles.logo}>
-            <HeartIcon />
+            <img src="/logo.png" alt="Iaso" style={{width:36,height:36,borderRadius:12}} />
           </div>
           <div className={styles.headerText}>
             <h1>Iaso</h1>
